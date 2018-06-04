@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8" />
+<title>JavaScript サンプル</title>
+<script>
+function calc() { 
+    var value1 = document.getElementById('value-1').value; 
+    var value2 = document.getElementById('value-2').value; 
+    var strname;
+    strname = value1 + value2;
+    alert(strname); 
+}
+</script> 
+</head>
+<body>
+<label for="value-1">苗字</label>
+<input id="value-1" />
+<label for="value-2">名前</label>
+<input id="value-2" />
+<input type="button" value="連結" onclick="calc()" />
+</body>
+</html>

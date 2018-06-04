@@ -1,0 +1,195 @@
+@charset "utf-8";
+
+ /* ヘッダー */
+ .header {
+   width: 100%; /* 横幅を画面一杯に設定 */
+   height:80px; /* ヘッダーの高さを設定 */
+    background: -moz-linear-gradient(#ffb03c, #ff708d);
+    background: -webkit-linear-gradient(#ffb03c, #ff708d);
+    background: linear-gradient(to right, #ffb03c, #ff708d);
+    color: #FFF;
+    padding:20px;
+ }
+ 
+ .header a:hover {
+  background-color:#ff708d;
+ }
+ 
+ /* ヘッダーロゴ */
+ .header_logo {
+   float: left; /* ロゴ表示部分を左寄せで設定 */
+   color:#fff; /* ロゴの色を設定 */
+   
+ }
+ 
+
+ /* グローバルナビゲーション */
+ .gnavi {
+    float: right; /* コンテンツの中身を右寄せで設定 */
+ 　  text-decoration: none;/*テキストに下線を表示されないように設定*/
+    line-height: 65px;
+    padding: 0 25px;
+    color: white;
+    display: block;
+    border:1px solid white;
+    border-radius:4px;
+    
+ }
+
+
+ /* メインパネル */
+
+.main {
+ float:left;
+ margin-top:100px;
+
+}
+
+.main:hover{
+ background-image:demo.jpg;
+}
+
+
+ 
+.side {
+ float:left;
+ display:block;
+ width:500px;
+ margin-top:100px;
+}
+
+
+.logo {
+ margin:0px 160px;
+}
+
+
+p{
+ color:silver;
+ text-align:center;
+ display:block;
+}
+
+body{
+ background-color:#fafafa; 
+ height:100%;
+}
+
+.form {
+ margin-bottom:10px;
+ height:36px;
+ font-size:12px;
+ text-align:center;
+ border:#e6e6e6;
+ 
+}
+
+input {
+ background-color:#e6e6e6;
+ height:36px;
+ width:45%;
+ border:1px solid silver;
+ margin-bottom:;
+}
+
+a {
+ text-decoration: none;
+ 
+}
+
+.sideup {
+ background-color:white;
+ border:1px solid silver;
+}
+
+.login0{
+ text-align: center;
+ background-color:white;
+}
+ 
+ 
+.login1{
+ color:silver;
+}
+
+.login2 {
+ float:left;
+ width:460px;
+ border:1px solid silver;
+ background-color:white;
+ padding:20px;
+}
+
+.login2 a{
+ color:blue;
+}
+
+.login3 {
+ float:left;
+ width:500px;
+ color:black;
+ padding:10px 0px;
+ 
+}
+
+.button {
+   background-color:#3b5998; ; /* 背景色を設定 */
+   color: #fff; /* ボタンのテキストを白色に設定。 */
+   line-height: 70px; /* 段落の高さを52ピクセルに設定 */
+   padding:10px 30px;
+   text-align:center;
+
+   
+ }
+
+.button1{
+   background-color:#3897f0; /* 背景色を設定 */
+   color: #fff; /* ボタンのテキストを白色に設定。 */
+   line-height: 70px; /* 段落の高さを52ピクセルに設定 */
+   margin:50px 130px;
+   padding:10px 80px;
+   text-align: center;
+ }
+
+
+
+ /* コンテンツエリア */
+ .content {
+   height:800px;
+   padding-left:250px;
+   text-align: center;
+   padding-bottom:100px;
+ }
+
+ .url_logo{
+  float:left;
+  
+ }
+
+img {
+ padding-right:20px;
+ float:left;
+}
+
+ 
+ /* フッター */
+ div#footer {
+   padding-top:30px;
+   background: #F8F8F8; /* 背景色設定 */
+   font-size: 85%; /* フォントサイズを元サイズの85%で表示 */
+   display: block;
+   clear:both;
+   
+ }
+ 
+ #footer a{
+  color:black;
+  
+ }
+  
+ 
+ /* フッタコピーライト */
+ div#footer_copy {
+   float: left; /* 左寄せ設定 */
+   margin: 12px 0 0 0; /* 上に12ピクセルの余白を設定 */
+ }
